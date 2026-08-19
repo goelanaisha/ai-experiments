@@ -1,0 +1,27 @@
+{
+  "name": "ai-experiments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "stream": "tsx stream.ts",
+    "chat": "tsx chat.ts",
+    "embeddings": "tsx embeddings.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@huggingface/inference": "^4.13.25",
+    "dotenv": "^17.4.2",
+    "groq-sdk": "^1.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0"
+  }
+}
