@@ -8,6 +8,7 @@
     "chat": "tsx chat.ts",
     "embeddings": "tsx embeddings.ts",
     "vectorstore" : "tsx vectorstore.ts",
+    "rag-files": "tsx rag-files.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
